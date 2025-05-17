@@ -1,0 +1,5 @@
+step 1 - npm init -y
+step 2 - npm install jest 
+step 3 - npm install axios
+step 4 - npm install dotenv
+step 5 - npm install uuid

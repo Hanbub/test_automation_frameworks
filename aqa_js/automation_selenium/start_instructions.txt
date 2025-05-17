@@ -1,0 +1,9 @@
+step 1 - instal npm
+step 2 - cd to aqa_js/automation_selenium
+step 3 - npm install express
+step 4 - npm audit fix --force
+step 5 - npm i selenium-webdriver
+step 6 - npm install chromedriver
+step 7 - npm install jest --save-dev
+step 8 - npm install dotenv
+step 9 - npm install uuid
