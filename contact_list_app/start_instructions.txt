@@ -9,6 +9,4 @@ step 8 - run "mongod --version" in terminal to check if all fine
 step 9 - create database "mydatabase" in mongodb
 step 10 - npm install dotnet
 step 11 - setup environ MONGODB_URL: "mongodb://localhost:27017/" (powershell $env:MONGODB_URL = "mongodb://localhost:27017/mydatabase")
-step 12 - [System.Environment]::SetEnvironmentVariable("JWT_SECRET", "ce51bb3b9689395aa0ca9d511075b6894fe7ec32bfd281eb16f7c884fcf42e2db8dd634f6159f89e9099dbe82fdf0663519363e9dda333858d15af56dbde0fc1fa50732d6699bad900a1025f9c8c7532995f922b4610b1452b0afba42b30182589d5a2faa87e11b51214bf31f3c735be61704de8df52d5ac262cb3f2d1dccb9142d816e24f80e8d876834e1a111431e973a7cc917f35f1e15c6bb2bb89225cae6d34a83dbf38975d248ac79401cb917c7abfb1d6b444ecba54c38de3803e78cd9725c2c30ba61c98274482e9a39fe6c70a4e3fc95c7e6eb621941187a8f487779d14d2c7625acdbbfb407a9128672c1618a628797cabb2344c3f40daabfdd482", "Process")
-step 13 - start website "node .\contact_list_app\src\index.js"
-todo: figure out wtf with environ
+step 12 - start website "node .\contact_list_app\src\index.js"
