@@ -3,15 +3,14 @@
     "configurations": [
       {
         "name": "Debug Python Tests (pytest)",
-        "type": "debugpy", // python | debugpy
+        "type": "debugpy",
         "request": "launch",
         "module": "pytest",
+        "console": "integratedTerminal",
         "args": [
           "-s",
           "--log-cli-level=INFO"
-        ],
-        // "cwd": "${workspaceFolder}/aqa_py/automation_api",
-        "console": "integratedTerminal"
+        ]
       }
     ]
   }
