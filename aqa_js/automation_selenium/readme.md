@@ -8,23 +8,22 @@ git clone https://github.com/Hanbub/test_automation_frameworks.git
 
 ## Install Dependencies
 
-cd ./aqa_js
-npm install
-cd ./automation_selenium
-npm install
-npx playwright install
+    cd ./aqa_js
+    npm install
+    cd ./automation_selenium
+    npm install
+    npx playwright install
 
 
-## Configure Environment Variables
+### Configure Environment Variables
 
 Configure a `.env` file in the `automation_selenium` directory and add the necessary environment variables required for your UI tests. For example:
 
-BASE_URL=http://localhost:3000
+    BASE_URL=http://localhost:3000
 
-## Run Tests
+### Run Tests
 
-You can run the test suite using:
-npm run test
+    npm run test
 
 ## Project Structure
 
