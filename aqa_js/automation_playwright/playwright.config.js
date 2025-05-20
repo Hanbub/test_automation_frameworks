@@ -3,7 +3,6 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
 // playwright.config.js
-
 module.exports = defineConfig({
     BASE_URL: process.env.BASE_URL,
     testDir: './tests', // Directory where test files are located

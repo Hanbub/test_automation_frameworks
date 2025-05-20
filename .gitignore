@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+.*/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage directories
+coverage/
+*.lcov
+.nyc_output/
+
+# Build directories
+build/
+dist/
+lib-cov/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache/
+
+# REPL history
+.node_repl_history
+
+# Environment variables
+.env
+.env.*
+
+# Output of 'npm pack'
+*.tgz
+
+# IDE directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# pw report
+aqa_js/automation_playwright/playwright-report/index.html
+*aqa_js/automation_playwright/test-results/.last-run.json
+*aqa_js/automation_playwright/playwright-report/index.html
