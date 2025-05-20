@@ -1,2 +1,0 @@
-step 1 - setup server using instruction ./example_server/contact_list_app/start_instructions.txt
-step 2 - run server with  |    node .\contact_list_app\src\index.js   

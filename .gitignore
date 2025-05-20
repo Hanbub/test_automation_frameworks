@@ -60,3 +60,7 @@ Thumbs.db
 aqa_js/automation_playwright/playwright-report/index.html
 *aqa_js/automation_playwright/test-results/.last-run.json
 *aqa_js/automation_playwright/playwright-report/index.html
+
+# python
+*__pycache__/*
+*__pycache__
