@@ -64,3 +64,5 @@ aqa_js/automation_playwright/playwright-report/index.html
 # python
 *__pycache__/*
 *__pycache__
+*playwright-report/*
+*playwright-report
