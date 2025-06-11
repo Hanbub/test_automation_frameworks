@@ -4,5 +4,6 @@
     "jest.runMode": "on-demand",
     "postman.settings.dotenv-detection-notification-visibility": false,
     "python.testing.pytestEnabled": true,
-    "python.testing.pytestArgs": ["-s", "--log-cli-level=INFO"]
+    "python.testing.pytestArgs": ["-s", "--log-cli-level=INFO"],
+    "cypress.enable": true
 }
